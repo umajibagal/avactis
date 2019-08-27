@@ -1,0 +1,6 @@
+demo
+hello
+demo
+hello
+2019-08-27 19:09:45.144  INFO   LoggerHelper :23 - demo
+2019-08-27 19:09:45.146  INFO   LoggerHelper :24 - hello
