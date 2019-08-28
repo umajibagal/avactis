@@ -4,3 +4,20 @@ demo
 hello
 2019-08-27 19:09:45.144  INFO   LoggerHelper :23 - demo
 2019-08-27 19:09:45.146  INFO   LoggerHelper :24 - hello
+2019-08-27 23:50:01.287  INFO   LoggerHelper :26 - demo
+2019-08-27 23:50:01.290  INFO   LoggerHelper :27 - hello
+2019-08-28 10:53:19.066  INFO   LoggerHelper :26 - demo
+2019-08-28 10:53:19.069  INFO   LoggerHelper :27 - hello
+2019-08-28 20:24:22.499  INFO   Retry :18 - retrying test : demoTest with status FAILURE for the 1 times
+2019-08-28 20:24:22.507  INFO   Retry :18 - retrying test : demoTest with status FAILURE for the 2 times
+2019-08-28 20:24:22.509  INFO   Retry :18 - retrying test : demoTest with status FAILURE for the 3 times
+2019-08-28 20:27:38.012  INFO   Retry :18 - retrying test : demoTest with status FAILURE for the 1 times
+2019-08-28 20:27:38.020  INFO   Retry :18 - retrying test : demoTest with status FAILURE for the 2 times
+2019-08-28 20:27:38.024  INFO   Retry :18 - retrying test : demoTest with status FAILURE for the 3 times
+2019-08-28 20:27:38.043  INFO   Retry :18 - retrying test : demoTest with status FAILURE for the 1 times
+2019-08-28 20:27:38.049  INFO   Retry :18 - retrying test : demoTest with status FAILURE for the 2 times
+2019-08-28 20:27:38.053  INFO   Retry :18 - retrying test : demoTest with status FAILURE for the 3 times
+2019-08-28 22:19:25.474  INFO   Retry :18 - retrying test : demoTest with status FAILURE for the 1 times
+2019-08-28 22:19:25.490  INFO   Retry :18 - retrying test : demoTest with status FAILURE for the 2 times
+2019-08-28 22:19:25.512  INFO   Retry :18 - retrying test : demoTest with status FAILURE for the 1 times
+2019-08-28 22:19:25.518  INFO   Retry :18 - retrying test : demoTest with status FAILURE for the 2 times

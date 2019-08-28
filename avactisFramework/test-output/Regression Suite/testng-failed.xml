@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <listeners>
+    <listener class-name="com.framework.paratus.avactis.helper.listener.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="SecondTest(failed)">
+    <classes>
+      <class name="A2">
+        <methods>
+          <include name="demoTest"/>
+        </methods>
+      </class> <!-- A2 -->
+    </classes>
+  </test> <!-- SecondTest(failed) -->
+  <test thread-count="5" name="ThirdTest(failed)">
+    <classes>
+      <class name="A3">
+        <methods>
+          <include name="demoTest"/>
+        </methods>
+      </class> <!-- A3 -->
+    </classes>
+  </test> <!-- ThirdTest(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->
