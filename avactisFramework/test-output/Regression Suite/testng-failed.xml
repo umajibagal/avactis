@@ -2,24 +2,34 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
   <listeners>
-    <listener class-name="com.framework.paratus.avactis.helper.listener.RetryListener"/>
+    <listener class-name="com.framework.paratus.avactis.helper.listener.ExtentListener"/>
   </listeners>
-  <test thread-count="5" name="SecondTest(failed)">
+  <test thread-count="5" name="A2(failed)">
     <classes>
       <class name="A2">
         <methods>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
           <include name="demoTest"/>
+          <include name="beforeClass"/>
         </methods>
       </class> <!-- A2 -->
     </classes>
-  </test> <!-- SecondTest(failed) -->
-  <test thread-count="5" name="ThirdTest(failed)">
+  </test> <!-- A2(failed) -->
+  <test thread-count="5" name="A3(failed)">
     <classes>
       <class name="A3">
         <methods>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
           <include name="demoTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
         </methods>
       </class> <!-- A3 -->
     </classes>
-  </test> <!-- ThirdTest(failed) -->
+  </test> <!-- A3(failed) -->
 </suite> <!-- Failed suite [Regression Suite] -->

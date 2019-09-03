@@ -1,8 +1,11 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class A3 {
-int i=1;
+import com.framework.paratus.avactis.testbase.TestBase;
+
+public class A3 extends TestBase {
+	int i = 1;
+
 	@Test
 	public void demoTest() {
 		if (i == 3) {

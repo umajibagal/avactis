@@ -142,7 +142,7 @@ public class WaitHelper {
 		return fluentWait.until(ExpectedConditions.visibilityOf(element));
 	}
 	
-	public void waitForPageLoadTimeOut(long timeOutInSeconds, TimeUnit unit) {
+	public void setPageLoadTimeout(long timeOutInSeconds, TimeUnit unit) {
 		logger.info("waiting for page load for time unit "+unit+" seconds");
 		driver.manage().timeouts().pageLoadTimeout(timeOutInSeconds, unit);
 		logger.info("page is loaded");

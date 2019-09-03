@@ -2,23 +2,29 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Regression Suite">
 	<listeners>
-		<listener class-name="com.framework.paratus.avactis.helper.listener.RetryListener"></listener>
+		<!-- listener class-name="com.framework.paratus.avactis.helper.listener.RetryListener"></listener> -->
+		<listener class-name="com.framework.paratus.avactis.helper.listener.ExtentListener"></listener>
 	</listeners>
-	<test name="FirstTest">
+	<test name="A">
 		<classes>
 			<class name="A"></class>
 		</classes>
 	</test>
 
-	<test name="SecondTest">
+	<test name="A2">
 		<classes>
 			<class name="A2"></class>
 		</classes>
 	</test>
 
-	<test name="ThirdTest">
+	<test name="A3">
 		<classes>
 			<class name="A3"></class>
+		</classes>
+	</test>	
+	<test name="TakeScrenshot">
+		<classes>
+			<class name="com.framework.paratus.avactis.testScript.TakeScrenshot"></class>
 		</classes>
 	</test>
 </suite>

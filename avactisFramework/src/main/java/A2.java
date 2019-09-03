@@ -1,7 +1,9 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class A2 {
+import com.framework.paratus.avactis.testbase.TestBase;
+
+public class A2 extends TestBase{
 
 	int i = 1;
 
